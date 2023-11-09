@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "friendlyscriptdoctor"
+version = "0.1.0"
+description = ""
+authors = ["Frederico Wieser <20886677+fredericowieser@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+huggingface-hub = "^0.17.0"
+langchain = "^0.0.331"
+tokenizers = "^0.14.1"
+transformers = "^4.35.0"
+torch = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
